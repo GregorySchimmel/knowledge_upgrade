@@ -22,10 +22,25 @@ gs.info(typeof n + ' n=' + n);
 */
 
 
-//Using typeof is a great way to understand what type the value. EX: Lets say you have a stored variable and are unsure of the variables type.
+// Using typeof is a great way to understand what type the value. EX: Lets say you have a stored variable and are unsure of the variables type.
 
 const myArray = ['string', 'number', 'boolean', 'undefined', 'null', 'object', 'function'];
 
 for (const value of myArray) {
   console.log("The typeof operator in JavaScript returns the type of a value. The possible types are: " + value);
 }
+
+// Now we define seven new variables and set all seven variables to one variable to get the total length of this new variable.
+
+var string1 = 'string'
+var string2 = 'number'
+var string3 = 'boolean'
+var string4 = 'undefined'
+var string5 = 'null'
+var string6 = 'object'
+var string7 = 'function'
+
+var allTheStrings = string1 + '\n' + string2 + '\n' + string3 + '\n' + string4 + '\n' + string5 + '\n' + string6 + '\n' + string7;
+console.log( 'allTheStrings= ' + allTheStrings);
+console.log( 'allTheStrings= ' + allTheStrings.length);
+
