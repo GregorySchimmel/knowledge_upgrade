@@ -1,0 +1,22 @@
+var a = 1;
+var b = 3;
+var c = 5;
+var bool = a < b;
+if (bool == true){
+console.log(a < b);
+}
+if (a < b){
+
+console.log(a < b);
+console.log('a is less than b');
+}
+else {
+ console.log('a is NOT less than b');
+}
+console.log('Greg was here');
+
+var n = '3';
+var i = 3;
+console.log(n == i); // REALLY?!!
+console.log(i = 4); // WATCH OUT!!!
+
