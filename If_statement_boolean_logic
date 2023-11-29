@@ -10,11 +10,13 @@ if (a < b){
 console.log(a < b);
 console.log('a is less than b');
 }
-else {
+ else if (a>b){
+ console.log('Yes a is greater than b');
+ console.log('Greg was here');
+}
+ else {
  console.log('a is NOT less than b');
 }
-console.log('Greg was here');
-
 var n = '3';
 var i = 3;
 console.log(n == i); // REALLY?!!
