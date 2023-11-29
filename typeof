@@ -1,0 +1,31 @@
+console.log(typeof 42);
+// Expected output: "number"
+
+console.log(typeof 'blubber');
+// Expected output: "string"
+
+console.log(typeof true);
+// Expected output: "boolean"
+
+console.log(typeof undeclaredVariable);
+// Expected output: "undefined"
+
+/* //Gliderecord in use
+
+var i = 5;
+var iStr = i.toString();
+gs.info(typeof i);
+gs.info(typeof iStr);
+
+var n = parseInt(iStr);
+gs.info(typeof n + ' n=' + n);
+*/
+
+
+//Using typeof is a great way to understand what type the value. EX: Lets say you have a stored variable and are unsure of the variables type.
+
+const myArray = ['string', 'number', 'boolean', 'undefined', 'null', 'object', 'function'];
+
+for (const value of myArray) {
+  console.log("The typeof operator in JavaScript returns the type of a value. The possible types are: " + value);
+}
