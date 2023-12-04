@@ -1,0 +1,32 @@
+var level = 2;
+var message = '';
+
+var Japenese = 'Japenese';
+var Spanlanguage = 'Spanish';
+var RUSlanguage = 'Russian';
+
+switch (level) {
+  case 0:
+    message = " translated to こんにちは世界 in " + Japenese;
+    break;
+
+  case 1:
+    message = " translated to Hola Mundo in " + Spanlanguage;
+    break;
+
+  case 2: 
+    message = " translated to Привет, мир in " + RUSlanguage;
+    break;
+/*
+  case 4:
+    message = 'High';
+    break;
+
+  case 5:
+    message = 'Full';
+    break;
+*/
+  default:
+    message = 'Incorrect translation!';
+}
+console.log('Level=' + level + ' Translation of Hello World' + message);
