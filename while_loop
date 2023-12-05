@@ -1,0 +1,37 @@
+//
+// Simple while loop to iterate over a statement of x number of times.
+//
+var i = 0;
+// The value of 'i' will always hold a value of 5 because of the increcement and iteration of the while loop value of 5. While loops always need a curly bracket to ensure the loop is held until needed.
+while (i < 5) {
+  console.info(i);
+  i++;
+}
+console.info('done i=' + i);
+
+//
+// While loop with the break.
+//
+/*
+var i = 0;
+while (true) {
+  if (i == 5)
+    break;
+  console.info(i);
+  ++i;
+}
+console.info('done');
+
+var i = 0;
+var done = false;
+while (!done) {
+  if (i < 5) {
+    ++i;
+    console.info(i + ' done=' + done);
+    continue;
+  }
+  console.info('I think we are done');
+  done = true;
+}
+console.info(i);
+*/
