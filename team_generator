@@ -1,0 +1,10 @@
+var id = 1;
+
+for (var team = 1; team < 6; team++) {
+  for (var player = 0; player <= 6; player++) {
+  player ++;
+    console.info('team=' + team + ' player=' + player + ' id=' + id);
+    id++;
+  }
+}
+console.info('Done creating teams and player');
