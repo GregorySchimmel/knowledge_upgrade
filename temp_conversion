@@ -1,0 +1,5 @@
+function convert_celcius(Fahr){
+	var celcius = (Fahr - 32) * (5/9);
+}
+var Fahr = prompt("Enter the temperature in Fahrenheit: ");
+	console.info(celcius);
